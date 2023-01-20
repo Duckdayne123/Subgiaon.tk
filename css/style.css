@@ -4,7 +4,7 @@ body {
 }
 
 body:hover {
-    cursor: url("../images/mouse2.png"), auto;
+    cursor: url("../images/mouse2.png"),
 }
 
 :root {
