@@ -1,9 +1,9 @@
 html,
-body {
+a {
     cursor: url("../images/mouse1.png"), auto;
 }
 
-body:hover {
+a:hover {
     cursor: url("../images/mouse2.png"),
 }
 
