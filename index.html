@@ -2,15 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<script>
-
-      document.onkeydown = function(e) {
-              if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
-                  alert('Anti F12 - Crt + U Bro');
-              }
-              return false;
-      };
-      </script>    
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -943,12 +934,12 @@
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" >
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" r></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" >
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
