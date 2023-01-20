@@ -3,7 +3,7 @@ body {
     cursor: url("../images/mouse1.png"), auto;
 }
 
-body:hover {
+body {
     cursor: url("../images/mouse2.png"), auto;
 }
 
